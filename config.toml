@@ -2,7 +2,7 @@ baseURL = "https://FlomeWorld.github.io"
 languageCode = "en-us"
 title = "Be Brave"
 theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
+disqusShortname = "Frankie" # delete this to disable disqus comments
 googleAnalytics = ""
 publishDir = "FlomeWorld.github.io"
 
