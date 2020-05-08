@@ -1,6 +1,3 @@
-[submodule "blog"]
-	path = blog
-	url = git@github.com:FlomeWorld/blog.git
 [submodule "FlomeWorld.github.io"]
 	path = FlomeWorld.github.io
 	url = git@github.com:FlomeWorld/FlomeWorld.github.io.git
