@@ -107,7 +107,7 @@ func Run(ctx context.Context, cc schedulerserverconfig.CompletedConfig, outOfTre
 framework会按照顺序去执行相应类型的plugin
 
 架构初始化流程图：
-![framework](./framework.svg)
+![framework](framework.png)
 
 - framework 初始化过程重点在于plugin加载，plugin里会对应相应的预选算法和优选算法
 
@@ -172,7 +172,7 @@ framework会按照顺序去执行相应类型的plugin
 ```
 
 架构初始化流程图：
-![scheduler](./schedulerOne.svg)
+![scheduler](schedulerOne.svg)
 
 ## 调度算法分析
 
