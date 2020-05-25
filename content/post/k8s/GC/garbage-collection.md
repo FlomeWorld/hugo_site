@@ -43,7 +43,7 @@ spec:
         - containerPort: 80
 ```
 
-### 2. delete the rs 
+### 2. delete the rs
 
 - prepare : I stop the kubelet so the pod belong to rs will be not deleted
 - delete the resource with the propagationPloicy equel to 'Foreground'
