@@ -1,68 +1,51 @@
 baseURL = "https://FlomeWorld.github.io"
 languageCode = "en-us"
-title = "Be Brave"
-theme = "minimal"
-disqusShortname = "Frankie" # delete this to disable disqus comments
-googleAnalytics = ""
+title = "Curiosity"
+theme = "hugo-theme-cleanwhite"
 publishDir = "FlomeWorld.github.io"
 
+[services]
+  [services.disqus]
+    shortname = "Harvey"
+  [services.googleAnalytics]
+    id = ""
+
 [params]
-    author = "Frankie"
-    description = "Welcome"
-    githubUsername = "FlomeWorld"
-    accent = "green"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "default"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  header_image = "img/photo_2026-03-03_13-46-56.jpg"
+  author = "Harvey"
+  description = "Welcome to my blog"
+  githubUsername = "FlomeWorld"
+  slogan = "Be Curious, Brave, Stay Hungry"
+  
+  # Sidebar settings
+  sidebar_about_description = "AI Infrastructure Architect | Kubernetes & GPU Optimization | Outdoor Adventurer"
+  sidebar_avatar = "img/profile.jpg" # Placeholder from theme, user might want to change
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+  featured_tags = true 
+  featured_condition_size = 0 
 
-[[menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 2
+  about_me = true
+  last_posts = true
 
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 3
+  [params.social]
+  rss            = true 
+  email          = "flomeworld@gmail.com"
+  github         = "https://github.com/FlomeWorld"
+  linkedin       = "https://www.linkedin.com/in/huajian-liu-87920189"
 
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 4
+  [[params.additional_menus]]
+  title = "ABOUT"
+  href = "/about"
 
-# Social icons to be shown on the right-hand side of the navigation bar.
-# The "name" field should match the name of the icon in Font Awesome.
-# The list of available icons can be found at http://fontawesome.io/icons.
+  [[params.additional_menus]]
+  title = "ARCHIVE"
+  href = "/archive"
 
-[[menu.icon]]
-    url = "flomeworld@gmail.com"
-    name = "envelope-o"
-    weight = 1
+  [[params.additional_menus]]
+  title = "RESEARCH"
+  href = "/research"
 
-[[menu.icon]]
-    url = "https://github.com/FlomeWorld/"
-    name = "github"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

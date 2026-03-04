@@ -11,7 +11,7 @@ instruction: https://kubernetes.io/docs/concepts/workloads/controllers/garbage-c
 
 ## mindmap
 
-![xmind](garbage-collector.png)
+![xmind](/img/garbage-collector.png)
 
 ## e.g
 

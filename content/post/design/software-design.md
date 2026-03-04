@@ -7,4 +7,4 @@ draft: true
 
 ## The mind map show the design process from my point of view 
 
-![image info](./image.png)
+![image info](/img/software-design.png)

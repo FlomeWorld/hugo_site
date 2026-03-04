@@ -1,3 +1,10 @@
+---
+title: "K8S Cluster Version Upgrade"
+date: 2021-06-13
+tags: [k8s]
+draft: true
+---
+
 # k8s cluster upgrade
 
 ## the flow chart

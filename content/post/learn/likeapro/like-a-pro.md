@@ -1,3 +1,10 @@
+---
+title: "Like a Pro"
+date: 2021-06-13
+tags: [k8s]
+draft: true
+---
+
 # long term memory
 
 ## How to Overcome Procrastination and Focus Intently
