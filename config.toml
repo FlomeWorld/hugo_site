@@ -1,8 +1,8 @@
-baseURL = "https://FlomeWorld.github.io"
+baseURL = "https://harvey.github.io"
 languageCode = "en-us"
 title = "Curiosity"
 theme = "hugo-theme-cleanwhite"
-publishDir = "FlomeWorld.github.io"
+publishDir = "harvey.github.io"
 
 [services]
   [services.disqus]
@@ -49,3 +49,7 @@ publishDir = "FlomeWorld.github.io"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
