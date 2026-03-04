@@ -1,6 +1,6 @@
-[submodule "harvey.github.io"]
-	path = harvey.github.io
-	url = https://github.com/FlomeWorld/harvey.github.io.git
+[submodule "FlomeWorld.github.io"]
+	path = FlomeWorld.github.io
+	url = https://github.com/FlomeWorld/FlomeWorld.github.io.git
 [submodule "themes/hugo-theme-cleanwhite"]
 	path = themes/hugo-theme-cleanwhite
 	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
