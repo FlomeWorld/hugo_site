@@ -1,8 +1,8 @@
-baseURL = "https://harvey.github.io"
+baseURL = "https://FlomeWorld.github.io"
 languageCode = "en-us"
 title = "Curiosity"
 theme = "hugo-theme-cleanwhite"
-publishDir = "harvey.github.io"
+publishDir = "FlomeWorld.github.io"
 
 [services]
   [services.disqus]
